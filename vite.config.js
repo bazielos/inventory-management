@@ -13,4 +13,7 @@ export default defineConfig({
 		port: 3000,
 	},
 	envPrefix: ['VITE_'],
+	build: {
+		outDir: 'build',
+	},
 });
